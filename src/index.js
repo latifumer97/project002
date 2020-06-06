@@ -7,7 +7,7 @@ import App from './App';
 ReactDOM.render(
  
   
-  <div><App name="SM UmerLatif" age="23"/></div>,
+  <div><App name="SM UmerLatif" age={23}/></div>,
   document.getElementById('root')
 );
 
