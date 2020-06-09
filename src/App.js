@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
 
-function App(props) {
+function App({name, age}) {
   return <div>
-    hello world from APP.js <br></br>
-    Name= {props.name}<br></br>
-    Age= {props.age-10}
-    <div>div inside a div: a tree</div>
+   Hello SM UmerLatif <br/>
+    Name= {name} Age= {age-10}<br/>
+    <Hello firstname={name} ></Hello>
     </div>
 }
 
